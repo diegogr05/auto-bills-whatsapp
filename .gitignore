@@ -1,0 +1,25 @@
+# Ignorar variáveis de ambiente
+.env
+
+# Ignorar dependências instaladas
+node_modules/
+
+# Ignorar arquivos temporários e de cache
+tmp/
+downloads/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar cache e autenticação do WhatsApp
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Ignorar configurações locais do VSCode e IntelliJ/JetBrains
+.vscode/
+.idea/
+
+# Ignorar sistema do Mac e Windows
+.DS_Store
+Thumbs.db
